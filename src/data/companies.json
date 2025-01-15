@@ -1,0 +1,93 @@
+[
+    {
+      "name": "atlassian",
+      "path": "/companies/atlassian.svg",
+      "id": 1,
+      "url": "https://www.atlassian.com/company/careers"
+    },
+    {
+      "name": "amazon",
+      "path": "/companies/amazon.svg",
+      "id": 2,
+      "url": "https://www.amazon.jobs/"
+    },
+    {
+      "name": "dell",
+      "path": "/companies/dell.svg",
+      "id": 3,
+      "url": "https://jobs.dell.com/"
+    },
+    {
+      "name": "flipkart",
+      "path": "/companies/flipkart.svg",
+      "id": 4,
+      "url": "https://www.flipkartcareers.com/"
+    },
+    {
+      "name": "apple",
+      "path": "/companies/apple.svg",
+      "id": 5,
+      "url": "https://www.apple.com/careers/"
+    },
+    {
+      "name": "google",
+      "path": "/companies/google.svg",
+      "id": 6,
+      "url": "https://careers.google.com/"
+    },
+    {
+      "name": "ibm",
+      "path": "/companies/ibm.svg",
+      "id": 7,
+      "url": "https://www.ibm.com/employment/"
+    },
+    {
+      "name": "meta",
+      "path": "/companies/meta.svg",
+      "id": 8,
+      "url": "https://www.metacareers.com/"
+    },
+    {
+      "name": "netflix",
+      "path": "/companies/netflix.png",
+      "id": 9,
+      "url": "https://jobs.netflix.com/"
+    },
+    {
+      "name": "nokia",
+      "path": "/companies/nokia.svg",
+      "id": 10,
+      "url": "https://careers.nokia.com/"
+    },
+    {
+      "name": "nvidia",
+      "path": "/companies/nvidia.svg",
+      "id": 11,
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite"
+    },
+    {
+      "name": "paytm",
+      "path": "/companies/paytm.png",
+      "id": 12,
+      "url": "https://paytm.com/careers/"
+    },
+    {
+      "name": "uber",
+      "path": "/companies/uber.svg",
+      "id": 13,
+      "url": "https://www.uber.com/us/en/careers/"
+    },
+    {
+      "name": "microsoft",
+      "path": "/companies/microsoft.webp",
+      "id": 14,
+      "url": "https://careers.microsoft.com/"
+    },
+    {
+      "name": "samsung",
+      "path": "/companies/samsung.svg",
+      "id": 15,
+      "url": "https://www.samsung.com/us/careers/"
+    }
+  ]
+  

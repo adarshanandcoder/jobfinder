@@ -1,0 +1,43 @@
+.grid-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: 
+        linear-gradient(to right, rgba(0, 0, 0, 0.2) 1px, transparent 1px), /* Blackish grid lines */
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 1px, transparent 1px), /* Blackish grid lines */
+        radial-gradient(circle, rgba(0, 0, 0, 0.2) 10%, transparent 70%);
+    background-size: 50px 50px, 50px 50px, 150% 150%;
+    pointer-events: none;
+    z-index: -1;
+    animation: gridAnimation 15s ease-in-out infinite;
+}
+
+@keyframes gridAnimation {
+    0% {
+        background-position: 0% 0%, 0% 0%, 50% 50%;
+        background-size: 50px 50px, 50px 50px, 120% 120%;
+    }
+    50% {
+        background-position: 50% 50%, 50% 50%, 30% 30%;
+        background-size: 60px 60px, 60px 60px, 100% 100%;
+    }
+    100% {
+        background-position: 100% 100%, 100% 100%, 50% 50%;
+        background-size: 50px 50px, 50px 50px, 120% 120%;
+    }
+}
+
+.grid-background::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom right, #2A2D34, #3C4048, #4B535D, #212529);
+    opacity: 0.9;
+    z-index: -1;
+}
+
